@@ -22,7 +22,6 @@ class MyFrame extends Frame implements ActionListener
   b1=new Button("Red");
   b2=new Button("Blue");
   b3=new Button("Green");
-  b4=new Button("Black");
   b5=new Button("cyan");
   b6=new Button("darkGray");
   b7=new Button("white");
@@ -36,7 +35,6 @@ class MyFrame extends Frame implements ActionListener
   b1.addActionListener(this);
   b2.addActionListener(this);
   b3.addActionListener(this);
-  b4.addActionListener(this);
   b5.addActionListener(this);
   b6.addActionListener(this);
   b7.addActionListener(this); 
@@ -51,7 +49,6 @@ class MyFrame extends Frame implements ActionListener
  b1.setBackground(Color.red);
  b2.setBackground(Color.blue);
  b3.setBackground(Color.green); 
-// b4.setBackground(Color.black);
  b5.setBackground(Color.cyan);
  b6.setBackground(Color.darkGray); 
  b7.setBackground(Color.white); 
@@ -64,7 +61,6 @@ class MyFrame extends Frame implements ActionListener
   this.add(b1);
   this.add(b2);
   this.add(b3);
-//   this.add(b4);
   this.add(b5);
   this.add(b6);
    this.add(b7);
